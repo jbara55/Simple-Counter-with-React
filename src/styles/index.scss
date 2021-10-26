@@ -1,13 +1,20 @@
 @import "~bootstrap/scss/bootstrap.scss";
 
-/* 
+.Counter div{
 
-    You can write your own styles here...
+    display: inline-block; 
+    font-size: 50px;
+    background:black;
+    line-height: 35px;
+    height: 20px;
+    color: white;
+    padding: 10px;
     
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
 
-*/
+}
+
+.Counter {
+    text-align: center;
+    background-color: black;
+    margin:auto;
+}
